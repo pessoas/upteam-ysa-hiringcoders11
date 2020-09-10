@@ -1,16 +1,21 @@
-import { createChatBotMessage } from 'react-chatbot-kit';
+import React from "react";
+import { createChatBotMessage } from "react-chatbot-kit";
 
-const config = { 
-  botName: "YsaBot",
-  initialMessages: [createChatBotMessage("Oi, eu sou a Ysa e esou aqui para ajudá-lo em sua compra de TV's.")],
-  customStyles: {
-    botMessageBox: {
-      backgroundColor: "#376B7E",
-    },
-    chatButton: {
-      backgroundColor: "#376B7E",
-    },
-  },
+import LearningOptions from "./components/LearningOptions/LearningOptions";
+
+const config = {
+initialMessages: [
+    createChatBotMessage("Olá, eu sou a Ysa e estou aqui para ajudá-lo. Qual modelo de TV te interessa?", {
+      widget: "LearningOptions",
+    }),
+  ],
+ 
+ widgets: [
+     {
+     	widgetName: "LearningOptions",
+    	widgetFunc: (props) => <LearningOptions {...props} />,
+     },
+ ],
 }
 
 export default config
