@@ -1,19 +1,19 @@
 import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 
-import LearningOptions from "./components/LearningOptions/LearningOptions";
+import Options from "./components/LearningOptions/Options";
 
 const config = {
 initialMessages: [
     createChatBotMessage("Olá, eu sou a Ysa e estou aqui para ajudá-lo. Qual modelo de TV te interessa?", {
-      widget: "LearningOptions",
+      widget: "Options",
     }),
   ],
  
  widgets: [
      {
-     	widgetName: "LearningOptions",
-    	widgetFunc: (props) => <LearningOptions {...props} />,
+     	widgetName: "Options",
+    	widgetFunc: (props) => <Options {...props} />,
      },
  ],
 }

@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./LearningOptions.css";
+import "./Options.css";
 
-const LearningOptions = (props) => {
+const Options = (props) => {
   const options = [
     { text: "LED", handler: () => {}, id: 1 },
     { text: "FULL HD", handler: () => {}, id: 2 },
@@ -13,7 +13,7 @@ const LearningOptions = (props) => {
 
   const optionsMarkup = options.map((option) => (
     <button
-      className="learning-option-button"
+      className="option-button"
       key={option.id}
       onClick={option.handler}
     >
@@ -21,7 +21,7 @@ const LearningOptions = (props) => {
     </button>
   ));
 
-  return <div className="learning-options-container">{optionsMarkup}</div>;
+  return <div className="options-container">{optionsMarkup}</div>;
 };
 
-export default LearningOptions;
+export default Options;
