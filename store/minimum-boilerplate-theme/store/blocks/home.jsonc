@@ -1,24 +1,21 @@
 {
   "store.home": {
     "blocks": [
-      "info-card#button-right",
-      "flex-layout.row"
+      "info-card#button-home"
     ]
   },
-  "info-card#button-right":{
+  "info-card#button-home":{
     "props": {
       "isFullModeStyle": true,
       "textPosition": "center",
       "headline": "Aproveite nossa promoção de TVs 4k",
-      "subhead": "Equipe sua sala com a melhor seleção de TVs 4k do mercado e assista seus conteúdos prediletos com a melhor qualidade.",
+      "subhead": "Equipe seu ambiente com a melhor seleção de TVs 4k do mercado e assista seus conteúdos prediletos com a melhor qualidade.",
       "callToActionMode": "button",
       "callToActionText": "Confira",
-      "callToActionUrl": "/promo/",
+      "callToActionUrl": "/promo/d",
       "textAlignment": "center",
       "blockClass": "promo4k"
     }
-  },
-  "flex-layout.row": {
-    "children": []
   }
+
 }
