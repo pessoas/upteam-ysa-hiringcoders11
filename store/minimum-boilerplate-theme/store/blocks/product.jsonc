@@ -1,13 +1,8 @@
 {
   "store.product": {
     "children": [
-      "breadcrumb",
       "flex-layout.row#main"
     ]
-  },
-
-  "breadcrumb": {
-    "props":{}
   },
 
   "flex-layout.row#main": {
