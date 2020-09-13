@@ -1,0 +1,25 @@
+{
+    "resourceName": "lex1dd8c0d1",
+    "botName": "Ysapilot",
+    "intents": [
+        {
+            "slots": [
+                {
+                    "name": "typeTV",
+                    "type": "AMAZON.Organization",
+                    "prompt": "Qual a marca",
+                    "required": true,
+                    "customType": false
+                }
+            ],
+            "utterances": [
+                "Comprar uma TV"
+            ],
+            "intentName": "OrderTV",
+            "newSlotTypes": []
+        }
+    ],
+    "outputVoice": "Joanna",
+    "sessionTimeout": "3",
+    "coppa": false
+}
