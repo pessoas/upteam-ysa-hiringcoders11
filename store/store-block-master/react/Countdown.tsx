@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 /*
 
@@ -30,15 +30,61 @@ interface ApresentationProps {}
 }
 
 const Countdown: StorefrontFunctionComponent<ApresentationProps> = ({}) => {
-  const imgStyle = {
-      width: "130p",
-      height: "100px",
+
+  const [chatActive, setChatActive] = useState(false);
+
+  const toggleChat = () => {
+    chatActive ? setChatActive(false) : setChatActive(true);
+    console.log(chatActive)
   }
+/*
+  const chat = () => {
+    if(chatActive) {
+      console.log('hi')
+      return (
+        <div>
+          <h1>hi</h1>
+        </div>
+      )
+    }
+    return(
+      <div>
+        <img src="https://upteam-ysa-chatbot.s3.amazonaws.com/photo_2020-09-12_10-22-01.jpg"/>
+      </div>
+    );
+  }*/
+
+
+  const imgStyle = {
+      width: "100p",
+      height: "70px"
+  }
+
+  if(chatActive) {
+    return (
+      <div>
+        <button  onClick={() => toggleChat()}>
+          <img style={imgStyle} src="https://upteam-ysa-chatbot.s3.amazonaws.com/headbot.png" />
+        </button>
+
+      </div>
+    );
+  } else {
+    return (
+      <div>
+        <button onClick={() => toggleChat()}> <h1> ola </h1> </button>
+      </div>
+      )
+  }
+/*
   return (
     <div>
-      <img style={imgStyle} src="https://upteam-ysa-chatbot.s3.amazonaws.com/headbot.png" />
+      <button  onClick={() => toggleChat()}>
+        <img style={imgStyle} src="https://upteam-ysa-chatbot.s3.amazonaws.com/headbot.png" />
+      </button>
+
     </div>
-  );
+  );*/
 };
 
 Countdown.schema = {
@@ -49,57 +95,3 @@ Countdown.schema = {
 };
 
 export default Countdown;
-
-
-/*
-<div>
-  <div id="container-apresentation" className="container-apresentation">
-    <div
-      id="container-apresentation-close"
-      className="container-apresentation-close"
-    >
-      <span>X</span>
-    </div>
-    <div className="box-message">
-      <div className="typewriter-text">
-        Seja bem vindo(a), estou muito feliz
-      </div>
-      <div className="typewriter-text">
-        que você veio! Meu nome é
-        <strong>
-          <abbr title="Your System Assistent">Ysa</abbr>
-        </strong>{" "}
-        e estou
-      </div>
-      <div className="typewriter-text">
-        aqui para auxiliar nas suas compras.
-      </div>
-      <div className="typewriter-text">
-        Quando precisar é só chamar, combinado?
-      </div>
-      <div className="typewriter-text">
-        Estarei no canto direito da sua tela.
-      </div>
-      <div className="typewriter-text">
-        Boas compras!!! &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-        &nbsp &nbsp ;)
-      </div>
-    </div>
-
-    <div className="container-bot-and-message"></div>
-    <div className="imgBot"></div>
-  </div>
-
-  <div className="icon-chatbot-head">
-    <div className="icon-chatbot-ear">
-      <div></div>
-      <div></div>
-    </div>
-    <div className="icon-chatbot-eye">
-      <div className="eye"></div>
-      <div className="eye"></div>
-    </div>
-    <div className="icon-chatbot-mouth"></div>
-  </div>
-</div>
-*/
