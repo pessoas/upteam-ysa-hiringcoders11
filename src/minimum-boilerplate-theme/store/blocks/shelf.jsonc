@@ -1,0 +1,18 @@
+{
+  "shelf": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "category": 1,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 2,
+        "itemsPerPage": 1,
+        "miniItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Nossos produtos mais vendidos"
+      }
+    }
+  }
+}

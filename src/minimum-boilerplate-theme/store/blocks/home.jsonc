@@ -1,0 +1,22 @@
+{
+  "store.home": {
+    "blocks": [
+      "info-card#button-home",
+      "countdown"
+    ]
+  },
+  "info-card#button-home":{
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "headline": "Aproveite nossa promoção de TVs 4k",
+      "subhead": "Equipe seu ambiente com a melhor seleção de TVs 4k do mercado e assista seus conteúdos prediletos com a melhor qualidade.",
+      "callToActionMode": "button",
+      "callToActionText": "Confira",
+      "callToActionUrl": "/promo/d",
+      "textAlignment": "center",
+      "blockClass": "promo4k"
+    }
+  }
+
+}
