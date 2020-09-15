@@ -2,12 +2,12 @@
   "shelf": {
     "blocks": ["product-summary.shelf"],
     "props": {
-      "category": 1,
+      "category": 3,
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
-        "maxItems": 2,
-        "itemsPerPage": 1,
+        "maxItems": 8,
+        "itemsPerPage": 4,
         "miniItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,

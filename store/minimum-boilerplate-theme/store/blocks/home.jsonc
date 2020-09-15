@@ -3,19 +3,27 @@
     "blocks": [
       "info-card#button-home",
       "shelf",
-      "countdown"]
+      "iframe"
+      ]
   },
   "info-card#button-home":{
     "props": {
       "isFullModeStyle": true,
       "textPosition": "center",
-      "headline": "Aproveite nossa promoção de TVs 4k",
-      "subhead": "Equipe seu ambiente com a melhor seleção de TVs 4k do mercado e assista seus conteúdos prediletos com a melhor qualidade.",
+      "headline": "Conheça nossa Assistente de Compras Ysa 🤖 ",
+      "subhead": "Ela vai adorar te auxiliar nas suas compras. Ela é boa de conversa, é super antenada nas tendências e dá ótimas sugestões.",
       "callToActionMode": "button",
       "callToActionText": "Confira",
       "callToActionUrl": "/promo/d",
       "textAlignment": "center",
       "blockClass": "promo4k"
+    }
+  },
+  "iframe": {
+    "props": {
+      "src":"https://festive-almeida-03a36f.netlify.app",
+      "width": 800,
+      "height": 1000
     }
   }
 
