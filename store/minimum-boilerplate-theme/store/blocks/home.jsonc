@@ -2,8 +2,7 @@
   "store.home": {
     "blocks": [
       "info-card#button-home",
-      "shelf",
-      "iframe"
+      "shelf"
       ]
   },
   "info-card#button-home":{
@@ -13,17 +12,10 @@
       "headline": "Conheça nossa Assistente de Compras Ysa 🤖 ",
       "subhead": "Ela vai adorar te auxiliar nas suas compras. Ela é boa de conversa, é super antenada nas tendências e dá ótimas sugestões.",
       "callToActionMode": "button",
-      "callToActionText": "Confira",
-      "callToActionUrl": "/promo/d",
+      "callToActionText": "Fale com a Ysa",
+      "callToActionUrl": "/ysa",
       "textAlignment": "center",
       "blockClass": "promo4k"
-    }
-  },
-  "iframe": {
-    "props": {
-      "src":"https://festive-almeida-03a36f.netlify.app",
-      "width": 800,
-      "height": 1000
     }
   }
 
