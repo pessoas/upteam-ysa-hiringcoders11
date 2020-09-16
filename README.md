@@ -10,6 +10,8 @@ Clique [aqui](hiringcoders11.myvtex.com "Tv Store a sua loja de tvs") e me veja 
 
 ---
 
+[Saiba mais sobre minha construção](https://upteamapresentation.netlify.app/)
+
 Nosso robô YSA foi implementado para utilizar recursos renomados pelo mercado atual.
 
 Utilizamos REACT para construir o componente inteligente, que servirá como aplicação da VTexIO e então inserida numa plataforma “marketplace” VTex.
