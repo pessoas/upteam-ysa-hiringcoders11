@@ -1,0 +1,24 @@
+{
+  "store.custom#ysa":{
+    "blocks":[
+      "flex-layout.row#ysa"
+    ]
+  },
+  "flex-layout.row#ysa": {
+    "children": [
+      "flex-layout.col#ysa"
+    ]
+  },
+  "flex-layout.col#ysa": {
+    "children": [
+      "iframe"
+    ]
+  },
+  "iframe": {
+    "props": {
+      "src":"https://festive-almeida-03a36f.netlify.app",
+      "width": 600,
+      "height": 600
+    }
+  }
+}
