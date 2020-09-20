@@ -2,7 +2,8 @@
   "store.home": {
     "blocks": [
       "info-card#button-home",
-      "shelf"
+      "shelf",
+      "countdown"
       ]
   },
   "info-card#button-home":{
