@@ -1,0 +1,10 @@
+.flexRowContent--headerContainer {
+  background-color: #662d91;
+  height: 80px;
+}
+
+.flexColChild--headerLogo {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
