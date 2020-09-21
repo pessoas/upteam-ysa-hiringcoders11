@@ -1,26 +1,63 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": ["footer-layout.desktop"]
   },
   "footer-layout.desktop": {
-    "children": [
-      "flex-layout.row#footer"
-    ]
+    "children": ["flex-layout.row#footer-1-desktop"]
   },
-  "footer-layout.mobile": {
+  "flex-layout.row#footer-1-desktop": {
     "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": {
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
+      "flex-layout.col#footer-left-desktop",
+      "flex-layout.col#footer-right-desktop"
+    ],
     "props": {
-      "width": 60,
-      "src": "https://upteam-ysa-chatbot.s3.amazonaws.com/photo_2020-09-12_10-22-01.jpg"
+      "blockClass": "footer-row",
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "border": "1px red solid"
+    }
+  },
+  "flex-layout.col#footer-left-desktop": {
+    "children": ["accepted-payment-methods"]
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["mastercard", "visa", "diners club"],
+      "showInColor": true
+    }
+  },
+  "flex-layout.col#footer-right-desktop": {
+    "children": ["social-networks"]
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        { "url": "https://facebook.com/foo", "name": "Facebook" },
+        { "url": "https://instagram.com/foo", "name": "Instagram" },
+        { "url": "https://twitter.com/foo", "name": "Twitter" }
+      ],
+      "showInColor": true
     }
   }
 }
+
+// {
+//   "footer": {
+//     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+//   },
+//   "footer-layout.desktop": {
+//     "children": ["flex-layout.row#footer"]
+//   },
+//   "footer-layout.mobile": {
+//     "children": ["flex-layout.row#footer"]
+//   },
+//   "flex-layout.row#footer": {
+//     "children": ["image"]
+//   },
+//   "image": {
+//     "props": {
+//       "width": 60,
+//       "src": "https://upteam-ysa-chatbot.s3.amazonaws.com/photo_2020-09-12_10-22-01.jpg"
+//     }
+//   }
+// }

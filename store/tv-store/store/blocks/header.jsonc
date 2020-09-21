@@ -6,9 +6,7 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop"
-    ]
+    "children": ["sticky-layout#desktop"]
   },
   "sticky-layout#desktop": {
     "props": {
@@ -18,29 +16,31 @@
   },
   "flex-layout.row#desktop": {
     "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
+      "horizontalAlign": "right",
+      // "verticalAlign": "top",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "headerContainer"
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
       "login",
       "minicart.v2"
     ]
   },
-  "flex-layout.col#spacer": {
+  "search-bar": {
     "props": {
-      "width": "grow"
+      "blockClass": "searchBar",
+      "displayMode": "search-and-clear-buttons"
     }
   },
+
   "flex-layout.col#logo-desktop": {
     "props": {
-      "verticalAlign": "middle"
+      "blockClass": "headerLogo"
     },
     "children": ["logo"]
   },
@@ -48,8 +48,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://upteam-ysa-chatbot.s3.amazonaws.com/photo_2020-09-12_10-22-01.jpg",
-      "width": "80"
+      "url": "https://hiringcoders11.vtexassets.com/arquivos/logo-letra-branca.png",
+      "width": "150"
     }
   },
   "header-layout.mobile": {
@@ -62,7 +62,7 @@
     "children": [
       "drawer",
       "logo",
-      "flex-layout.col#spacer",
+      // "flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ],

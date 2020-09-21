@@ -1,0 +1,29 @@
+.searchBarContainer {
+  background-color: #662d91;
+  border-radius: 30px;
+  padding: 16px;
+  position: absolute;
+  left: 200px;
+  top: 40px;
+}
+
+.autoCompleteOuterContainer--searchBar {
+  border: none;
+}
+
+/* ---funciona---- */
+/* .imageElement--imageHeader {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.imageElement--imageHeaderLogo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 150px;
+  height: 150px;
+} */
