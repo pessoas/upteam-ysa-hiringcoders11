@@ -4,7 +4,8 @@
       "shelf",
       "info-card#button-home",
       "info-card#button-home1",
-      "info-card#button-home2"
+      "info-card#button-home2",
+      "countdown"
     ]
   },
   "info-card#button-home": {
