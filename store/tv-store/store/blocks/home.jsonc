@@ -2,22 +2,24 @@
   "store.home": {
     "blocks": [
       "slider-layout#text-test",
+      "info-card#banner-home",
       "shelf#topSale",
       "shelf#topDiscount",
       "countdown"
     ]
   },
-  "info-card#button-home": {
+  "info-card#banner-home":{
     "props": {
-      "isFullModeStyle": true,
-      "textPosition": "center",
-      "headline": "Conheça nossa Assistente de Compras Ysa 🤖 ",
-      "subhead": "Ela vai adorar te auxiliar nas suas compras. Ela é boa de conversa, é super antenada nas tendências e dá ótimas sugestões.",
-      "callToActionMode": "button",
-      "callToActionText": "Fale com a Ysa",
-      "callToActionUrl": "/ysa",
+      "isFullModeStyle": false,
+      "imageUrl":"https://hiringcoders11.vtexassets.com/arquivos/ysadoisheader.png",
+      "textPosition": "right",
       "textAlignment": "center",
-      "blockClass": "ysa"
+      "headline": "Seja bem vindo(a) a nossa loja! ",
+      "subhead": "Meu nome é *Ysa* e estou muito feliz que você veio. Estou aqui para te auxiliar na sua compra. Quando precisar só me chamar, combinado? Estarei sempre no canto direito da sua tela. Boas compras!!! 🤖",
+      "blockClass": "ysaInfoCard",
+      "callToActionMode": "none"
+      /*"callToActionText": "Fale comigo",
+      "callToActionUrl": "/ysa", */
     }
   }
 }
