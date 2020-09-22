@@ -6,7 +6,17 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": ["sticky-layout#desktop"]
+    "children": [
+      "sticky-layout#desktop",
+      "header-row#menu"
+    ]
+  },
+  "header-row#menu": {
+    "children": [
+      "header-spacer",
+      "vtex.menu@2.x:menu#categories",
+      "header-spacer"
+    ]
   },
   "sticky-layout#desktop": {
     "props": {
