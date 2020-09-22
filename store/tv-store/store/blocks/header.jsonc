@@ -17,7 +17,6 @@
   "flex-layout.row#desktop": {
     "props": {
       "horizontalAlign": "right",
-      // "verticalAlign": "top",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
@@ -28,8 +27,14 @@
       "search-bar",
       "locale-switcher",
       "login",
-      "minicart.v2"
+      "minicart.v2",
+      "product-images"
     ]
+  },
+  "product-images": {
+    "props": {
+      "contentType": "videos"
+    }
   },
   "search-bar": {
     "props": {
@@ -59,13 +64,7 @@
     "children": ["flex-layout.row#mobile"]
   },
   "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      // "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
+    "children": ["drawer", "logo", "login", "minicart.v2"],
     "props": {
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,

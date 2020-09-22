@@ -30,3 +30,8 @@
   background-color: rgba(102, 45, 145, 0.8);
   color: #f0f0f0;
 }
+
+.dot--isActive {
+  background-color: #662d91;
+  transition: 1s;
+}

@@ -1,0 +1,50 @@
+{
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "never",
+      "fullWidth": true,
+      "infinite": true,
+      "slideTransition": { "speed": 500, "delay": 0, "timing": "" },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "blockClass": "carousel"
+    },
+    "children": ["image#1", "image#2", "image#3", "image#4"]
+  },
+
+  "image#1": {
+    "props": {
+      "src": "https://i.pinimg.com/originals/2d/9b/cd/2d9bcd94ecc4861fb3eb4d60c3130ea1.jpg",
+      "maxHeight": 600,
+      "width": "100%"
+    }
+  },
+  "image#2": {
+    "props": {
+      "src": "https://blog.bestbuy.ca/wp-content/uploads/2018/03/Feature_images_Samsung-MU700-vs-QLED.png",
+      "maxHeight": 600,
+      "width": "100%"
+    }
+  },
+  "image#3": {
+    "props": {
+      "src": "https://www.conceptindia.com/sites/default/files/2019-08/1-Philips-Banner_1.jpg",
+      "maxHeight": 600,
+      "width": "100%"
+    }
+  },
+  "image#4": {
+    "props": {
+      "src": "https://images-eu.ssl-images-amazon.com/images/G/31/img18/TV/Sony/1116800_Sony_1_headerbanner_PC_revised._CB480187909_.jpg",
+      "maxHeight": 600,
+      "width": "100%"
+    }
+  }
+}
