@@ -1,0 +1,8 @@
+.paginationDot--isActive {
+  background-color: #662d91;
+  transition: 1s;
+}
+
+.paginationDot {
+  margin-bottom: 20px;
+}
