@@ -1,0 +1,19 @@
+.flexRowContent--headerContainer {
+  background-color: #662d91;
+  height: 80px;
+}
+
+.flexColChild--headerLogo {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.flexRowContent--footer-row {
+  background-color: #E6E6FA ;
+  height: 80px;
+}
+.minicart-footer{
+  background-color: #E6E6FA ;
+
+}

@@ -8,7 +8,7 @@
   },
   "flex-layout.row#product-breadcrumb": {
     "props": {
-      "marginTop": 4
+      "marginTop": 9
     },
     "children": ["breadcrumb"]
   },
