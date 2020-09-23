@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "info-card#banner-home",
       "slider-layout#text-test",
       "info-card#banner-home",
       "shelf#topSale",
@@ -8,6 +9,7 @@
       "countdown"
     ]
   },
+
   "info-card#banner-home":{
     "props": {
       "isFullModeStyle": false,

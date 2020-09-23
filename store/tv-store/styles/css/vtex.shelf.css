@@ -7,11 +7,6 @@
   transition: 0.5s;
 }
 
-/* .shelfContentContainer {
-  border: 1px solid transparent;
-  padding: 8px;
-} */
-
 .slide:hover {
   transform: scale(1.02, 1.02);
   box-shadow: 1px 1px 15px 1px rgba(102, 45, 145, 0.9);
