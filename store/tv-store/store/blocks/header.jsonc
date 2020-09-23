@@ -37,14 +37,8 @@
       "search-bar",
       "locale-switcher",
       "login",
-      "minicart.v2",
-      "product-images"
+      "minicart.v2"
     ]
-  },
-  "product-images": {
-    "props": {
-      "contentType": "videos"
-    }
   },
   "search-bar": {
     "props": {
