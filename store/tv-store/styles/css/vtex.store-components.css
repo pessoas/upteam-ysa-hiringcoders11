@@ -1,0 +1,98 @@
+.searchBarContainer {
+  background-color: #662d91;
+  border-radius: 30px;
+  padding: 16px;
+  position: absolute;
+  left: 200px;
+  top: 40px;
+}
+
+.autoCompleteOuterContainer--searchBar {
+  border: none;
+}
+
+/* ---InfoCard Ysa---- */
+.infoCardImage--ysaInfoCard {
+  width: 40%;
+  height: 40%;
+}
+
+.infoCardImageContainer--ysaInfoCard {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoCardContainer--ysaInfoCard {
+  background-color: #662d91;
+  background-image: url("https://hiringcoders11.vtexassets.com/arquivos/backgroundImgYsa.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50% 100%;
+  padding: 0;
+}
+
+.infoCardHeadline--ysaInfoCard {
+  color: white;
+}
+
+.infoCardSubhead--ysaInfoCard {
+  color: white;
+}
+
+.infoCardContainer--teto-home{    
+ padding: 0;
+  width: 80%;
+  height: 60%;
+  margin: 0 auto;
+  
+}
+
+.infoCardImageContainer--teto-home{
+  width: 50%;
+  height: 60%;
+}
+
+.infoCardCallActionContainer--teto-home{
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer */
+.imageElement--logo-parceria-gama {
+  width: 120%;
+  height: 60px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.imageElement--logo-parceria-aws {
+  width: 60%;
+  height: 40px;
+  padding: 30px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageElement--logo-parceria-vtex {
+  width: 90%;
+  height: 60px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.imageElement--logo-parceria-driven {
+  width: 30%;
+  height: 60px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.imageElement--logo-parceria-acct {
+  width: 40%;
+  height: 60px;
+  padding: 20px;
+  margin: 10px;
+}

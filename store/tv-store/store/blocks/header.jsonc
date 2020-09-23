@@ -1,0 +1,78 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": ["sticky-layout#desktop"]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#desktop"]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "right",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "headerContainer"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar",
+      "locale-switcher",
+      "login",
+      "minicart.v2",
+      "product-images"
+    ]
+  },
+  "product-images": {
+    "props": {
+      "contentType": "videos"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "blockClass": "searchBar",
+      "displayMode": "search-and-clear-buttons"
+    }
+  },
+
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "blockClass": "headerLogo"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://hiringcoders11.vtexassets.com/arquivos/logo-letra-branca.png",
+      "width": "150"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "children": ["drawer", "logo", "login", "minicart.v2"],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": []
+  }
+}

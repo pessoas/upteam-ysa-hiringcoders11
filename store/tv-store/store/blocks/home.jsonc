@@ -1,0 +1,55 @@
+{
+  "store.home": {
+    "blocks": [
+      "info-card#banner-home",
+      "slider-layout#text-test",
+      "shelf#topSale",
+      "shelf#topDiscount",
+      "info-card#banner-teto",
+      "info-card#banner-tetodois",
+      "countdown"
+    ]
+  },
+  "info-card#banner-home": {
+    "props": {
+      "isFullModeStyle": false,
+      "imageUrl": "https://hiringcoders11.vtexassets.com/arquivos/ysadoisheader.png",
+      "textPosition": "left",
+      "textAlignment": "center",
+      "headline": "Seja bem vindo(a) a nossa loja! ",
+      "subhead": "Meu nome é *Ysa* e estou muito feliz que você veio. Estou aqui para te auxiliar na sua compra. Quando precisar só me chamar, combinado? Estarei sempre no canto direito da sua tela. Boas compras!!! 🤖",
+      "blockClass": "ysaInfoCard",
+      "callToActionMode": "none"
+    }
+  },
+  "info-card#banner-teto": {
+    "props": {
+      "isFullModeStyle": false,
+      "imageUrl": "https://hiringcoders11.vtexassets.com/arquivos/tetoDois.jpg",
+      "textPosition": "center",
+      "headline": "Você já conhece a TETO?",
+      "subhead": "Vale a pena conhecer. \n É uma organização sem fins lucrativos que apoiamos \n e que trabalha para superar a pobreza em comunidades \n precárias na América Latina",
+      "callToActionMode": "button",
+      "callToActionText": "Vem conhecer",
+      "callToActionUrl": "https://www.techo.org/brasil/",
+      "callToActionLinkTarget":"_blank",
+      "textAlignment": "center",
+      "blockClass": "teto-home"
+    }
+  },
+  "info-card#banner-tetodois": {
+    "props": {
+      "isFullModeStyle": false,
+      "imageUrl": "https://hiringcoders11.vtexassets.com/arquivos/teto-brasil2.jpg",
+      "textPosition": "right",
+      "headline": "Você quer ajudar a TETO?",
+      "subhead": "Entre no site e faça sua doação. Existem diversas maneiras de contribuir. Quer saber como? É só clicar no botão.",
+      "callToActionMode": "button",
+      "callToActionText": "Quero ajudar a TETO",
+      "callToActionUrl": "https://www.techo.org/brasil/doar/",
+      "callToActionLinkTarget":"_blank",
+      "textAlignment": "center",
+      "blockClass": "teto-home"
+    }
+  }
+}

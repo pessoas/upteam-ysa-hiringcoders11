@@ -1,0 +1,55 @@
+.paragraph--title-copyright {
+  font-size: xx-small;
+}
+
+.paragraph--title-institucional {
+  font-size: smaller;
+  margin-bottom: 0;
+  color: #662d91;
+  font-weight: 900;
+}
+
+.paragraph--text-institucional {
+  font-size: 11px;
+  margin-top: 0;
+  color: #662d91;
+}
+
+.paragraph--title-duvida {
+  font-size: smaller;
+  margin-bottom: 0;
+  color: #662d91;
+  font-weight: 900;
+}
+
+.paragraph--text-duvida {
+  font-size: 11px;
+  margin-top: 0;
+  color: #662d91;
+}
+
+.paragraph--title-atendimento {
+  font-size: smaller;
+  margin-bottom: 0;
+  color: #662d91;
+  font-weight: 900;
+}
+
+.paragraph--text-atendimento {
+  font-size: 11px;
+  margin-top: 0;
+  color: #662d91;
+}
+
+.strong--title-parceria {
+  text-align: right;
+}
+
+.wrapper--text-payment {
+  font-size: small;
+  background-color: #d3a9f1;
+}
+
+.wrapper--title-parceria {
+  color: #662d91;
+}

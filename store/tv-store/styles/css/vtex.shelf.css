@@ -1,0 +1,37 @@
+.slide {
+  border: 1px solid #662d91;
+  border-radius: 16px;
+  margin: 0 12px;
+  width: 300px;
+  box-shadow: 1px 1px 5px 1px rgba(102, 45, 145, 0.4);
+  transition: 0.5s;
+}
+
+/* .shelfContentContainer {
+  border: 1px solid transparent;
+  padding: 8px;
+} */
+
+.slide:hover {
+  transform: scale(1.02, 1.02);
+  box-shadow: 1px 1px 15px 1px rgba(102, 45, 145, 0.9);
+}
+
+.caretIcon {
+  background-color: rgba(102, 45, 145, 0.4);
+  padding: 20px;
+  border-radius: 50px;
+  color: #662d91;
+  font-weight: 900;
+  transition: 0.5s;
+}
+
+.caretIcon:hover {
+  background-color: rgba(102, 45, 145, 0.8);
+  color: #f0f0f0;
+}
+
+.dot--isActive {
+  background-color: #662d91;
+  transition: 1s;
+}

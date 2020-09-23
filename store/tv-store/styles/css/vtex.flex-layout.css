@@ -1,0 +1,67 @@
+.flexRowContent--headerContainer {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 80px;
+}
+
+.flexColChild--headerLogo {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+/* footer */
+.flexRowContent--headerContainer {
+  height: 80px;
+}
+
+.flexColChild--headerLogo {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.imageElement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexColChild {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.flexColChild--footer-payment {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.flexColChild--footer-social {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.footer-parceria {
+  padding: 80px;
+}
+
+.flexRowContent {
+  padding: 0;
+}
+
+.flexRow--footer-payment-social {
+  background-color: #d3a9f1;
+}
+.flexRow--footer-link {
+  background-color: #d3a9f1;
+}
+
+.flexRow--footer-copyright {
+  background-color: #662d91;
+}

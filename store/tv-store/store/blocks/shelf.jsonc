@@ -1,0 +1,34 @@
+{
+  "shelf#topSale": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "category": 3,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 4,
+        "miniItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Os Mais Vendidos"
+      }
+    }
+  },
+  "shelf#topDiscount": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "category": 3,
+      "orderBy": "OrderByBestDiscountDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 4,
+        "miniItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Maiores Descontos"
+      }
+    }
+  }
+}

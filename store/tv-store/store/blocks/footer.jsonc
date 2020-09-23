@@ -1,0 +1,231 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer1-desktop",
+      "flex-layout.row#footer2-desktop",
+      "flex-layout.row#footer3-desktop",
+      "flex-layout.row#footer4-desktop"
+    ]
+  },
+  "flex-layout.row#footer1-desktop": {
+    "props": {
+      "blockClass": "footer-parceria"
+    },
+    "children": [
+      "rich-text#parceria-text",
+      "image#parceria-gama",
+      "image#parceria-aws",
+      "image#parceria-vtex",
+      "image#parceria-driven",
+      "image#parceria-acct"
+    ]
+  },
+  "rich-text#parceria-text": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**NOSSOS PARCEIROS:**",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "title-parceria"
+    }
+  },
+  "image#parceria-gama": {
+    "props": {
+      "blockClass": "logo-parceria-gama",
+      "width": 70,
+      "src": "https://hiringcoders11.vtexassets.com/arquivos/gama-academy-logotres.png"
+    }
+  },
+  "image#parceria-aws": {
+    "props": {
+      "blockClass": "logo-parceria-aws",
+      "width": 60,
+      "src": "https://hiringcoders11.vtexassets.com/arquivos/logoaws.png"
+    }
+  },
+  "image#parceria-vtex": {
+    "props": {
+      "blockClass": "logo-parceria-vtex",
+      "width": 80,
+      "src": "https://hiringcoders11.vtexassets.com/arquivos/logovtexsite.png"
+    }
+  },
+  "image#parceria-driven": {
+    "props": {
+      "blockClass": "logo-parceria-driven",
+      "width": 110,
+      "src": "https://hiringcoders11.vtexassets.com/arquivos/logodriven.png"
+    }
+  },
+  "image#parceria-acct": {
+    "props": {
+      "blockClass": "logo-parceria-acct",
+      "width": 80,
+      "src": "https://hiringcoders11.vtexassets.com/arquivos/logotipo_acct.png"
+    }
+  },
+  "flex-layout.row#footer2-desktop": {
+    "children": [
+      "flex-layout.col#footer-left-desktop-institucional",
+      "flex-layout.col#footer-center-desktop-duvidas",
+      "flex-layout.col#footer-right-desktop-atendimento"
+    ],
+    "props": {
+      "blockClass": "footer-link"
+    }
+  },
+  "flex-layout.col#footer-left-desktop-institucional": {
+    "children": ["rich-text#institucional-title", "rich-text#institucional"],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#institucional-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "INSTITUCIONAL",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "title-institucional"
+    }
+  },
+  "rich-text#institucional": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Sobre a empresa \n Termos e Condições \n Trabalhe Conosco",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "text-institucional"
+    }
+  },
+  "flex-layout.col#footer-center-desktop-duvidas": {
+    "children": ["rich-text#duvidas-title", "rich-text#duvidas"],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#duvidas-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "DÚVIDAS",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "title-duvida"
+    }
+  },
+  "rich-text#duvidas": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Ajuda \n Política de Privacidade \n Política de Segurança \n Política de Trocas \n GarantiaSobre a empresa \n Termos e Condições \n Trabalhe Conosco",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "text-duvida"
+    }
+  },
+  "flex-layout.col#footer-right-desktop-atendimento": {
+    "children": ["rich-text#atendimento-title", "rich-text#atendimento"],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#atendimento-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "ATENDIMENTO",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "title-atendimento"
+    }
+  },
+  "rich-text#atendimento": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Central de Atendimento \n Chat Online \n Televendas: (11) 0800-111-4099",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "text-atendimento"
+    }
+  },
+  "flex-layout.row#footer3-desktop": {
+    "children": [
+      "flex-layout.col#footer-left-desktop-pague",
+      "flex-layout.col#footer-right-desktop-social"
+    ],
+    "props": {
+      "blockClass": "footer-payment-social",
+      "paddingTop": 14,
+      "paddingBottom": 14,
+      "border": "1px red solid"
+    }
+  },
+  "flex-layout.col#footer-left-desktop-pague": {
+    "props": {
+      "blockClass": "footer-payment"
+    },
+    "children": ["accepted-payment-methods"]
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["mastercard", "visa", "diners club"],
+      "showInColor": true
+    }
+  },
+  "flex-layout.col#footer-right-desktop-social": {
+    "props": {
+      "blockClass": "footer-social"
+    },
+    "children": ["social-networks"]
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        { "url": "https://facebook.com/foo", "name": "Facebook" },
+        { "url": "https://instagram.com/foo", "name": "Instagram" },
+        { "url": "https://twitter.com/foo", "name": "Twitter" }
+      ],
+      "showInColor": true
+    }
+  },
+  "flex-layout.row#footer4-desktop": {
+    "children": ["flex-layout.col#footer-center-desktop-copyright"],
+    "props": {
+      "blockClass": "footer-copyright"
+    }
+  },
+  "flex-layout.col#footer-center-desktop-copyright": {
+    "children": ["image#store", "rich-text#copyright"],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#copyright": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Desenvolvido por UPTEAM - LIGA DEV \n Copyright © 2020 - Todos os direitos reservados. \n Todas as marcas e suas imagens são de propriedade de seus respectivos donos. \n É vedada a reprodução, total ou parcial, de qualquer conteúdo sem expressa autorização.",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "title-copyright"
+    }
+  },
+  "image#store": {
+    "props": {
+      "width": 60,
+      "src": "https://hiringcoders11.vtexassets.com/arquivos/logo-letra-branca.png"
+    }
+  }
+}
