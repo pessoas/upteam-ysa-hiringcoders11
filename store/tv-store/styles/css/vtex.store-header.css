@@ -1,0 +1,13 @@
+.headerRowContentContainer{
+  align-items: flex-end;
+  float:right;
+  position: static;
+  top: 90;
+  height: 80px;
+  background-color: whitesmoke;
+}
+
+.headerRowContainer{
+  background-color: whitesmoke;
+
+}

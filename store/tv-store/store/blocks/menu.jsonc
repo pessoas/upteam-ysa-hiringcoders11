@@ -1,0 +1,44 @@
+{
+  "vtex.menu@2.x:menu#categories": {
+    "children": [
+      "menu-item#tvs",
+      "menu-item#audio",
+      "menu-item#acessorios"
+    ],
+    "props":{
+      "orientation": "horizontal"
+    }
+  },
+
+  "menu-item#tvs": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "categoryId": 3,
+        "text": "TVs"
+      }
+    }
+  },
+
+  "menu-item#audio": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Audio"
+      }
+    }
+  },
+
+  "menu-item#acessorios": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Acessorios"
+      }
+    }
+  }
+
+}

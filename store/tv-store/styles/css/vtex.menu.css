@@ -1,0 +1,14 @@
+.menuItem{
+  vertical-align: 30px; 
+  width: 300px;
+  transition: 0.5s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menuItem:hover{
+  vertical-align: 30px;  
+  transform: scale(1.02, 1.02);    
+}
+
+.styledLinkContent{
+  color: #662d91;  
+}

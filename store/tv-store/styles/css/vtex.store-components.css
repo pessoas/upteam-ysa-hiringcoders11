@@ -1,7 +1,7 @@
 .searchBarContainer {
   background-color: #662d91;
-  border-radius: 30px;
-  padding: 16px;
+  border-radius: 20px;
+  padding: 10px;
   position: absolute;
   left: 200px;
   top: 40px;
@@ -11,10 +11,45 @@
   border: none;
 }
 
+
 .discountInsideContainer {
   background-color: #662d91;
   font-weight: 600;
 }
+.infoCardImage--ysaInfoCard{
+    width: 40%;
+    height: 40%;
+    align-items: center;
+
+}
+
+.infoCardImageContainer--ysaInfoCard{
+    background-color: #662d91;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoCardContainer--ysaInfoCard{
+    background-color: #662d91;
+    background-image: url("https://hiringcoders11.vtexassets.com/arquivos/backgroundImgYsa.jpg");
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+
+.infoCardHeadline--ysaInfoCard{
+    color: white;
+}
+
+.infoCardSubhead--ysaInfoCard{
+    color: white;
+}
+
+.container{
+  background-color: white;
+}
+
 
 /* ---InfoCard Ysa---- */
 .infoCardImage--ysaInfoCard {
