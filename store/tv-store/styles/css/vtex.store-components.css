@@ -11,6 +11,11 @@
   border: none;
 }
 
+.discountInsideContainer {
+  background-color: #662d91;
+  font-weight: 600;
+}
+
 /* ---InfoCard Ysa---- */
 .infoCardImage--ysaInfoCard {
   width: 40%;
