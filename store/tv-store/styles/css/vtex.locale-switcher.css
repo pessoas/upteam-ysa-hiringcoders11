@@ -1,5 +1,11 @@
 .container {
   display: flex;
-  align-items: initial;
-  padding-top: 16px;
+  align-items: center;
+  padding-top: 5px;
+}
+.globeIcon{
+  color: whitesmoke;
+}
+.buttonText{
+  color: whitesmoke
 }

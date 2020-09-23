@@ -1,7 +1,7 @@
 .searchBarContainer {
   background-color: #662d91;
-  border-radius: 30px;
-  padding: 16px;
+  border-radius: 20px;
+  padding: 10px;
   position: absolute;
   left: 200px;
   top: 40px;
@@ -19,7 +19,7 @@
 }
 
 .infoCardImageContainer--ysaInfoCard{
-    background-color: rgba(0,0,0,0.5);
+    background-color: #662d91;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,9 +41,12 @@
     color: white;
 }
 
+.container{
+  background-color: white;
+}
 
 /* ---funciona---- */
-/* .imageElement--imageHeader {
+/* .imageElement {
   position: relative;
   top: 0;
   left: 0;

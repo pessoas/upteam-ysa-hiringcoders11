@@ -1,11 +1,16 @@
-/* .container {
+.container {
   display: flex;
   align-items: initial;
   margin-top: 16px;
   height: 40px;
+  color: whitesmoke;
+  border-color: whitesmoke;
 }
 
 .container:hover {
   color: #f0f0f0;
   transition: 0.2s;
-} */
+} 
+.label{
+  color: whitesmoke;
+}
