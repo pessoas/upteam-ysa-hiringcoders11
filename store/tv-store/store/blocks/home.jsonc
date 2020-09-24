@@ -2,7 +2,6 @@
   "store.home": {
     "blocks": [
       "slider-layout#text-test",
-      "info-card#banner-home",
       "shelf#topSale",
       "shelf#topDiscount",
       "info-card#banner-teto",
@@ -11,10 +10,10 @@
     ]
   },
 
-  "info-card#banner-home":{
+  "info-card#banner-home": {
     "props": {
       "isFullModeStyle": false,
-      "imageUrl":"https://hiringcoders11.vtexassets.com/arquivos/ysadoisheader.png",
+      "imageUrl": "https://hiringcoders11.vtexassets.com/arquivos/ysadoisheader.png",
       "textPosition": "right",
       "textAlignment": "center",
       "headline": "Seja bem vindo(a) a nossa loja! ",

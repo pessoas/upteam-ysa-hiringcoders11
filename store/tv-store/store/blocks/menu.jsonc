@@ -1,11 +1,7 @@
 {
   "vtex.menu@2.x:menu#categories": {
-    "children": [
-      "menu-item#tvs",
-      "menu-item#audio",
-      "menu-item#acessorios"
-    ],
-    "props":{
+    "children": ["menu-item#tvs", "menu-item#audio", "menu-item#acessorios"],
+    "props": {
       "orientation": "horizontal"
     }
   },
@@ -26,7 +22,7 @@
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "Audio"
+        "text": "ÁUDIO"
       }
     }
   },
@@ -36,9 +32,8 @@
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "Acessorios"
+        "text": "ACESSÓRIOS"
       }
     }
   }
-
 }

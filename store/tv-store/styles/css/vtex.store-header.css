@@ -1,13 +1,12 @@
-.headerRowContentContainer{
-  align-items: flex-end;
-  float:right;
-  position: static;
-  top: 90;
-  height: 80px;
-  background-color: whitesmoke;
+.headerRowBackground,
+.headerRowContentContainer,
+.headerRowContainer,
+.headerStickyRow {
+  height: 40px;
+  background-color: #d3a9f1;
+  color: #662d91;
 }
 
-.headerRowContainer{
-  background-color: whitesmoke;
-
+.styledLinkContent {
+  font-weight: 600;
 }

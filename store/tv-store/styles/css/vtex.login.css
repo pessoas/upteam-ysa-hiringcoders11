@@ -1,4 +1,4 @@
-.container {
+/* .container {
   display: flex;
   align-items: initial;
   margin-top: 16px;
@@ -13,4 +13,15 @@
 } 
 .label{
   color: whitesmoke;
+} */
+
+.label {
+  /* background-color: #d3a9f1;
+  transition: 0.5s; */
+  color: #d3a9f1;
+}
+
+.label:hover {
+  transition: 0.5s;
+  color: #662d91;
 }

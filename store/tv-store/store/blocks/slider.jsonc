@@ -16,33 +16,39 @@
       },
       "blockClass": "carousel"
     },
-    "children": ["image#1", "image#2", "image#3", "image#4"]
+    "children": ["image#1", "image#2", "image#3", "image#4", "image#5"]
   },
-
   "image#1": {
     "props": {
-      "src": "https://hiringcoders11.vtexassets.com/arquivos/lg.jpg",
+      "src": "https://hiringcoders11.vtexassets.com/arquivos/blackfriday.jpg",
       "maxHeight": 600,
       "width": "100%"
     }
   },
   "image#2": {
     "props": {
-      "src": "https://hiringcoders11.vtexassets.com/arquivos/samsung.jpg",
+      "src": "https://hiringcoders11.vtexassets.com/arquivos/lg.jpg",
       "maxHeight": 600,
       "width": "100%"
     }
   },
   "image#3": {
     "props": {
-      "src": "https://hiringcoders11.vtexassets.com/arquivos/philips.jpg",
+      "src": "https://hiringcoders11.vtexassets.com/arquivos/samsung.jpg",
       "maxHeight": 600,
       "width": "100%"
     }
   },
   "image#4": {
     "props": {
-      "src": "https://hiringcoders11.vtexassets.com/arquivos/sony.jpg",
+      "src": "https://hiringcoders11.vtexassets.com/arquivos/philips.jpg",
+      "maxHeight": 600,
+      "width": "100%"
+    }
+  },
+  "image#5": {
+    "props": {
+      "src": "https://hiringcoders11.vtexassets.com/arquivos/marcas.jpg",
       "maxHeight": 600,
       "width": "100%"
     }
