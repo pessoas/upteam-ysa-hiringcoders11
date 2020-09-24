@@ -68,7 +68,7 @@
     "children": ["flex-layout.row#mobile"]
   },
   "flex-layout.row#mobile": {
-    "children": ["drawer", "logo", "login", "minicart.v2"],
+    "children": ["drawer", "logo"],
     "props": {
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
@@ -77,6 +77,12 @@
     }
   },
   "drawer": {
-    "children": []
+    "children": ["header-row#menu"],
+    "props": {
+      "orientation": "vertical"
+    }
   }
+
+
+
 }
