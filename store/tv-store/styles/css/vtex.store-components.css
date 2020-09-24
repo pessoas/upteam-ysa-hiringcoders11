@@ -60,6 +60,25 @@
   padding: 0;
 }
 
+/* --- InfoCard Teto --- */
+.infoCardContainer--teto-home{
+ padding: 0;
+  width: 80%;
+  height: 60%;
+  margin: 0 auto;
+
+}
+
+.infoCardImageContainer--teto-home{
+  width: 50%;
+  height: 60%;
+}
+
+.infoCardCallActionContainer--teto-home{
+  align-items: center;
+  justify-content: center;
+}
+
 .infoCardHeadline--ysaInfoCard {
   color: white;
 }
