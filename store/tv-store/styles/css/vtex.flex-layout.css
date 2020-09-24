@@ -1,5 +1,5 @@
 .flexRowContent--headerContainer {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(102, 45, 145, 0.95);
   height: 80px;
 }
 
@@ -10,16 +10,6 @@
 }
 
 /* footer */
-.flexRowContent--headerContainer {
-  height: 80px;
-}
-
-.flexColChild--headerLogo {
-  position: absolute;
-  left: 5px;
-  top: 5px;
-}
-
 .imageElement {
   display: flex;
   align-items: center;
@@ -47,8 +37,11 @@
   margin: 0;
 }
 
-.footer-parceria {
-  padding: 80px;
+.flexRowContent--footer-parceria {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flexRowContent {

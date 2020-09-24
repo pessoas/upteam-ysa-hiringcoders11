@@ -1,14 +1,22 @@
-.menuItem{
-  vertical-align: 30px; 
+.menuItem {
   width: 300px;
+  height: 30px;
   transition: 0.5s;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.menuItem:hover{
-  vertical-align: 30px;  
-  transform: scale(1.02, 1.02);    
+.menuItem:hover .styledLinkContent {
+  font-weight: 600;
+  transition: 0.2s;
 }
 
-.styledLinkContent{
-  color: #662d91;  
+.styledLinkContent {
+  color: #662d91;
+  justify-content: center;
+}
+
+.styledLinkContainer {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

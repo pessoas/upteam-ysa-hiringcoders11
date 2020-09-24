@@ -1,55 +1,42 @@
 .searchBarContainer {
-  background-color: #662d91;
-  border-radius: 20px;
-  padding: 10px;
-  position: absolute;
-  left: 200px;
-  top: 40px;
+  margin: auto auto;
 }
 
 .autoCompleteOuterContainer--searchBar {
   border: none;
 }
 
-
 .discountInsideContainer {
   background-color: #662d91;
   font-weight: 600;
 }
-.infoCardImage--ysaInfoCard{
-    width: 40%;
-    height: 40%;
-    align-items: center;
-
+.infoCardImage--ysaInfoCard {
+  width: 40%;
+  height: 40%;
+  align-items: center;
 }
 
-.infoCardImageContainer--ysaInfoCard{
-    background-color: #662d91;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.infoCardImageContainer--ysaInfoCard {
+  background-color: #662d91;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.infoCardContainer--ysaInfoCard{
-    background-color: #662d91;
-    background-image: url("https://hiringcoders11.vtexassets.com/arquivos/backgroundImgYsa.jpg");
-    background-repeat: no-repeat;
-    padding: 0;
+.infoCardContainer--ysaInfoCard {
+  background-color: #662d91;
+  background-image: url("https://hiringcoders11.vtexassets.com/arquivos/backgroundImgYsa.jpg");
+  background-repeat: no-repeat;
+  padding: 0;
 }
 
-
-.infoCardHeadline--ysaInfoCard{
-    color: white;
+.infoCardHeadline--ysaInfoCard {
+  color: white;
 }
 
-.infoCardSubhead--ysaInfoCard{
-    color: white;
+.infoCardSubhead--ysaInfoCard {
+  color: white;
 }
-
-.container{
-  background-color: white;
-}
-
 
 /* ---InfoCard Ysa---- */
 .infoCardImage--ysaInfoCard {
@@ -68,7 +55,7 @@
   background-color: #662d91;
   background-image: url("https://hiringcoders11.vtexassets.com/arquivos/backgroundImgYsa.jpg");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: left;
   background-size: 50% 100%;
   padding: 0;
 }
@@ -81,26 +68,30 @@
   color: white;
 }
 
-/* footer */
-.imageElement--logo-parceria-gama {
-  width: 120%;
-  height: 60px;
-  padding: 20px;
-  margin: 10px;
+.infoCardContainer--teto-home {
+  padding: 0;
+  width: 80%;
+  height: 280px;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 1100px;
+  background-image: linear-gradient(
+    to left,
+    #d3a9f1,
+    rgba(102, 45, 145, 0.2),
+    #d3a9f1
+  );
 }
 
-.imageElement--logo-parceria-aws {
-  width: 60%;
-  height: 40px;
-  padding: 30px;
-  margin: 10px;
+.infoCardImageContainer--teto-home {
+  width: 50%;
+}
+
+.infoCardCallActionContainer--teto-home {
   align-items: center;
   justify-content: center;
 }
 
-.imageElement--logo-parceria-vtex {
-  width: 110%;
-  height: 60px;
-  padding: 20px;
-  margin: 10px;
+.infoCardHeadline--teto-home {
+  color: #662d91;
 }

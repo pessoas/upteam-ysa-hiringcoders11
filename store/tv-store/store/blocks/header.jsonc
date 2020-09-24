@@ -6,10 +6,7 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop",
-      "header-row#menu"
-    ]
+    "children": ["sticky-layout#desktop", "header-row#menu"]
   },
   "header-row#menu": {
     "children": [
@@ -58,7 +55,7 @@
       "title": "Logo",
       "href": "/",
       "url": "https://hiringcoders11.vtexassets.com/arquivos/logo-letra-branca.png",
-      "width": "150"
+      "width": "120"
     }
   },
   "header-layout.mobile": {
