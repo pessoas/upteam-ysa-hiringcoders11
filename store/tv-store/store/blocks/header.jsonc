@@ -8,6 +8,8 @@
   "header-layout.desktop": {
     "children": ["sticky-layout#desktop", "header-row#menu"]
   },
+
+    
   "header-row#menu": {
     "children": [
       "header-spacer",
@@ -57,20 +59,24 @@
       "url": "https://hiringcoders11.vtexassets.com/arquivos/logo-letra-branca.png",
       "width": "120"
     }
-  },
+  },  
   "header-layout.mobile": {
     "children": ["sticky-layout#mobile"]
   },
   "sticky-layout#mobile": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
     "children": ["flex-layout.row#mobile"]
   },
   "flex-layout.row#mobile": {
-    "children": ["drawer", "logo", "login", "minicart.v2"],
+    "children": ["drawer", "logo", "login", "minicart.v2", "locale-switcher"],
     "props": {
-      "blockClass": "main-header-mobile",
+      //"blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "headerContainer"
     }
   }
 }
