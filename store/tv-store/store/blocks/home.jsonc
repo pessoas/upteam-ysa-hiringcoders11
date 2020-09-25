@@ -33,7 +33,7 @@
       "callToActionMode": "button",
       "callToActionText": "Vem conhecer",
       "callToActionUrl": "https://www.techo.org/brasil/",
-      "callToActionLinkTarget":"_blank",
+      "callToActionLinkTarget": "_blank",
       "textAlignment": "center",
       "blockClass": "teto-home"
     }
@@ -48,7 +48,7 @@
       "callToActionMode": "button",
       "callToActionText": "Quero ajudar a TETO",
       "callToActionUrl": "https://www.techo.org/brasil/doar/",
-      "callToActionLinkTarget":"_blank",
+      "callToActionLinkTarget": "_blank",
       "textAlignment": "center",
       "blockClass": "teto-home"
     }
