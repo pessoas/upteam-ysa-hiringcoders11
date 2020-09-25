@@ -6,8 +6,6 @@
       "shelf#topDiscount",
       "info-card#banner-teto",
       "info-card#banner-tetodois",
-      "info-card#mobile-banner-teto",
-      "info-card#mobile-banner-tetodois",
       "countdown"
     ]
   },
@@ -24,7 +22,7 @@
       "callToActionMode": "none"
     }
   },
-  "info-card#mobile-banner-teto": {
+  "info-card#banner-teto": {
     "props": {
       "isFullModeStyle": false,
       "imageUrl": "https://hiringcoders11.vtexassets.com/arquivos/tetoDois.jpg",
@@ -39,7 +37,7 @@
       "blockClass": "teto-home"
     }
   },
-  "info-card#mobile-banner-tetodois": {
+  "info-card#banner-tetodois": {
     "props": {
       "isFullModeStyle": false,
       "imageUrl": "https://hiringcoders11.vtexassets.com/arquivos/teto-brasil2.jpg",

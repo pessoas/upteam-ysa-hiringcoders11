@@ -21,35 +21,35 @@
   "image#1": {
     "props": {
       "src": "https://hiringcoders11.vtexassets.com/arquivos/blackfriday.jpg",
-      "maxHeight": 600,
+      "maxHeight": 450,
       "width": "100%"
     }
   },
   "image#2": {
     "props": {
       "src": "https://hiringcoders11.vtexassets.com/arquivos/lg.jpg",
-      "maxHeight": 600,
+      "maxHeight": 450,
       "width": "100%"
     }
   },
   "image#3": {
     "props": {
       "src": "https://hiringcoders11.vtexassets.com/arquivos/samsung.jpg",
-      "maxHeight": 600,
+      "maxHeight": 450,
       "width": "100%"
     }
   },
   "image#4": {
     "props": {
       "src": "https://hiringcoders11.vtexassets.com/arquivos/philips.jpg",
-      "maxHeight": 600,
+      "maxHeight": 450,
       "width": "100%"
     }
   },
   "image#5": {
     "props": {
       "src": "https://hiringcoders11.vtexassets.com/arquivos/marcas.jpg",
-      "maxHeight": 600,
+      "maxHeight": 450,
       "width": "100%"
     }
   }
