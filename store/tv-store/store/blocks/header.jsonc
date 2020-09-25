@@ -72,8 +72,5 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
-  },
-  "drawer": {
-    "children": []
   }
 }

@@ -3,6 +3,7 @@
     "blocks": [
       "slider-layout#text-test",
       "shelf#topSale",
+      "info-card#banner-home",
       "shelf#topDiscount",
       "info-card#banner-teto",
       "info-card#banner-tetodois",

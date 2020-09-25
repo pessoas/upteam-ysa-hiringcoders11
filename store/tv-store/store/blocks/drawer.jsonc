@@ -1,0 +1,18 @@
+{
+  "drawer": {
+      "children": [
+      "vtex.menu@2.x:menu#drawer"
+      ]
+    },
+
+  "vtex.menu@2.x:menu#drawer": {
+      "children": [
+        "menu-item#tvs",
+        "menu-item#audio",
+        "menu-item#acessorios"
+      ],
+      "props":{
+          "orientation": "vertical"
+      }
+    }
+}

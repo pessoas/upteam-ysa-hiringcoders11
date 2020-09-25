@@ -8,7 +8,7 @@
 
   "menu-item#tvs": {
     "props": {
-      "type": "custom",
+      "type": "category",
       "highlight": true,
       "itemProps": {
         "categoryId": 3,
@@ -19,9 +19,10 @@
 
   "menu-item#audio": {
     "props": {
-      "type": "custom",
+      "type": "category",
       "highlight": true,
       "itemProps": {
+        "categoryId": 9,
         "text": "ÁUDIO"
       }
     }
@@ -29,9 +30,10 @@
 
   "menu-item#acessorios": {
     "props": {
-      "type": "custom",
+      "type": "category",
       "highlight": true,
       "itemProps": {
+        "categoryId": 8,
         "text": "ACESSÓRIOS"
       }
     }
