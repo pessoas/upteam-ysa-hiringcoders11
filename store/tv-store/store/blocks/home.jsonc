@@ -3,8 +3,8 @@
     "blocks": [
       "slider-layout#text-test",
       "shelf#topSale",
-      "shelf#topDiscount",
       "info-card#banner-home",
+      "shelf#topDiscount",
       "info-card#banner-teto",
       "info-card#banner-tetodois",
       "countdown"
