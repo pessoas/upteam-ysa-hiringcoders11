@@ -6,6 +6,8 @@
       "shelf#topDiscount",
       "info-card#banner-teto",
       "info-card#banner-tetodois",
+      "info-card#mobile-banner-teto",
+      "info-card#mobile-banner-tetodois",
       "countdown"
     ]
   },
@@ -22,7 +24,7 @@
       "callToActionMode": "none"
     }
   },
-  "info-card#banner-teto": {
+  "info-card#mobile-banner-teto": {
     "props": {
       "isFullModeStyle": false,
       "imageUrl": "https://hiringcoders11.vtexassets.com/arquivos/tetoDois.jpg",
@@ -32,12 +34,12 @@
       "callToActionMode": "button",
       "callToActionText": "Vem conhecer",
       "callToActionUrl": "https://www.techo.org/brasil/",
-      "callToActionLinkTarget":"_blank",
+      "callToActionLinkTarget": "_blank",
       "textAlignment": "center",
       "blockClass": "teto-home"
     }
   },
-  "info-card#banner-tetodois": {
+  "info-card#mobile-banner-tetodois": {
     "props": {
       "isFullModeStyle": false,
       "imageUrl": "https://hiringcoders11.vtexassets.com/arquivos/teto-brasil2.jpg",
@@ -47,7 +49,7 @@
       "callToActionMode": "button",
       "callToActionText": "Quero ajudar a TETO",
       "callToActionUrl": "https://www.techo.org/brasil/doar/",
-      "callToActionLinkTarget":"_blank",
+      "callToActionLinkTarget": "_blank",
       "textAlignment": "center",
       "blockClass": "teto-home"
     }
