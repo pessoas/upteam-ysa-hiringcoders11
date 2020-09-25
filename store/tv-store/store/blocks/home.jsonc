@@ -1,12 +1,12 @@
 {
   "store.home": {
     "blocks": [
-      "info-card#banner-home",
       "slider-layout#text-test",
       "shelf#topSale",
       "shelf#topDiscount",
       "info-card#banner-teto",
-      "info-card#banner-tetodois"
+      "info-card#banner-tetodois",
+      "countdown"
     ]
   },
 
@@ -32,7 +32,7 @@
       "callToActionMode": "button",
       "callToActionText": "Vem conhecer",
       "callToActionUrl": "https://www.techo.org/brasil/",
-      "callToActionLinkTarget": "_blank",
+      "callToActionLinkTarget":"_blank",
       "textAlignment": "center",
       "blockClass": "teto-home"
     }
@@ -47,7 +47,7 @@
       "callToActionMode": "button",
       "callToActionText": "Quero ajudar a TETO",
       "callToActionUrl": "https://www.techo.org/brasil/doar/",
-      "callToActionLinkTarget": "_blank",
+      "callToActionLinkTarget":"_blank",
       "textAlignment": "center",
       "blockClass": "teto-home"
     }
