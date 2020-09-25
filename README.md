@@ -207,7 +207,7 @@ O Mundo é uma caixa de surpresa, e como diz o mestre **`"cada um sabe a dor e a
 &nbsp;
 
 |Membro|Nome|Linkedin|Git|
-|---|---|---|---|---|
+|---|---|---|---|
 |![Alexandre](time/1.jpeg "Alexandre")|Alexanre|[in-alexandre-moreira](https://www.linkedin.com/in/in-alexandre-moreira) | [alexandre-moreira](https://github.com/alexandre-moreira) |
 |![Carolina](time/2.jpeg "Carolina")|Carolina|[caroline-casagrande-992a3911](https://www.linkedin.com/in/caroline-casagrande-992a3911) | [carolcasagrande](https://github.com/carolcasagrande) |
 |![Eduardo](time/3.jpeg "Eduardo")|Eduardo|[eduardo-rodrigues-41448a125](https://www.linkedin.com/in/eduardo-rodrigues-41448a125/) | [EduardoRS78](https://github.com/EduardoRS78) |
